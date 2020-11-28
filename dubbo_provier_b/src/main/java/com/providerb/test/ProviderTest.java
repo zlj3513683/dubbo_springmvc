@@ -1,4 +1,4 @@
-package com.provider.test;
+package com.providerb.test;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -15,7 +15,7 @@ public class ProviderTest {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:springmvc.xml");
         context.start();
 
-        System.out.println("Dubbo provider start...");
+        System.out.println("Dubbo provider start2...");
 
         try {
             System.in.read();   // 按任意键退出
