@@ -9,3 +9,4 @@
 >运行main方法，console打印出 provider hello哈哈哈  成功
 ###4.再创建一个provider和一个consumer
 >注意两个provider的<dubbo:protocol name="dubbo" port="20880" /><dubbo:protocol name="dubbo" port="20881" />端口配置不一样
+>然后可以无限的扩展服务方和消费方，服务方的调用实现负载均衡
